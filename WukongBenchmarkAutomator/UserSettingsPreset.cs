@@ -25,6 +25,28 @@ namespace WukongBenchmarkAutomator
             Rtx = rtx;
             Dlss = dlss;
         }
+
+        public override string ToString()
+        {
+            return
+                "  ResolutionX          = " + ResolutionX + Environment.NewLine +
+                "  ResolutionY          = " + ResolutionY + Environment.NewLine +
+                "  ResolutionQuality    = " + ResolutionQuality + Environment.NewLine +
+                "  QualityLevel         = " + QualityLevel + Environment.NewLine +
+                "  Rtx                  = " + Rtx + Environment.NewLine +
+                "  Dlss                 = " + Dlss + Environment.NewLine +
+                "  sg.ViewDistanceQuality     = " + QualityLevel + Environment.NewLine +
+                "  sg.ShadowQuality           = " + QualityLevel + Environment.NewLine +
+                "  sg.TextureQuality          = " + QualityLevel + Environment.NewLine +
+                "  sg.EffectsQuality          = " + QualityLevel + Environment.NewLine +
+                "  sg.FoliageQuality          = " + QualityLevel + Environment.NewLine +
+                "  sg.GlobalIlluminationQuality = " + QualityLevel + Environment.NewLine +
+                "  sg.ReflectionQuality       = " + QualityLevel + Environment.NewLine +
+                "  sg.AntiAliasingQuality     = " + QualityLevel + Environment.NewLine +
+                "  sg.PostProcessQuality      = " + QualityLevel + Environment.NewLine +
+                "  sg.ShadingQuality          = " + QualityLevel + Environment.NewLine +
+                "  ViewDistance               = " + QualityLevel + Environment.NewLine;
+        }
     }
 
     public static class SettingsPresets

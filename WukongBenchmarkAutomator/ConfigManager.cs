@@ -103,7 +103,8 @@ namespace WukongBenchmarkAutomator
             content = Regex.Replace(content, @"\(""Dlss"", ""\d+""\)", $"(\"Dlss\", \"{preset.Dlss}\")");
 
             File.WriteAllText(ConfigFileName, content);
-            Console.WriteLine($"{configType} test settings applied.");
+            Console.WriteLine($"{configType} test settings applied:");
+            Console.Write(preset.ToString());
         }
     }
 }
