@@ -1,0 +1,95 @@
+# ==================================================
+# .NET / C# — стандартные исключения
+# ==================================================
+
+# Пользовательские настройки Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# Артефакты сборки
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Pp]ublish/
+[Ll]og/
+[Ll]ogs/
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.lib
+*.exp
+*.ilk
+*.cache
+*.tlog
+*.lastbuildstate
+*.idb
+*.opendb
+
+# Файлы NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!packages/build/
+.project/
+.projectItems/
+*.nuget.props
+*.nuget.targets
+*.nuget.g.props
+*.nuget.g.targets
+
+# Пользовательские артефакты тестов
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+[Bb]uildProfile.*
+*.coverage
+*.coveragexml
+*.trx
+*.VisualState.xml
+TestResult.xml
+*.jfm
+
+# Пользовательские файлы проекта
+*.rsuser
+*.rsp
+*.svclog
+*.psess
+*.vsp
+*.vspx
+
+# Crash-дампы, отладка
+*.dmp
+*.mdmp
+*.hdmp
+*.dmpuser
+
+# ==================================================
+# Windows
+# ==================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==================================================
+# macOS
+# ==================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==================================================
+# JetBrains Rider
+# ==================================================
+*.sln.iml

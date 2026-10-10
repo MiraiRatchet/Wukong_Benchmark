@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WukongBenchmarkAutomator", "Bnchmark\WukongBenchmarkAutomator.csproj", "{0E71EBC4-984D-4CAE-B8E9-675345D75291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E71EBC4-984D-4CAE-B8E9-675345D75291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E71EBC4-984D-4CAE-B8E9-675345D75291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E71EBC4-984D-4CAE-B8E9-675345D75291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E71EBC4-984D-4CAE-B8E9-675345D75291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BABFFD2B-9905-4C5A-86A7-AC2F7DF7652B}
+	EndGlobalSection
+EndGlobal
