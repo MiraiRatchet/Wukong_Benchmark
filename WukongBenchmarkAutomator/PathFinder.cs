@@ -35,7 +35,6 @@ namespace WukongBenchmarkAutomator
             {
                 return fileName;
             }
-            Console.Error.WriteLine("User settings file is not found");
             return null;
         }
 
